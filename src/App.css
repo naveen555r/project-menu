@@ -1,0 +1,79 @@
+/* General Styling */
+.menu-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-list h2 {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-list h2:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Menu Items */
+.menu-list div {
+  margin-bottom: 20px;
+}
+
+.menu-list p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .menu-list h2 {
+    font-size: 1.25rem; 
+    padding: 8px;
+  }
+
+  .menu-list div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+
+  .menu-list p {
+    font-size: 0.9rem; 
+  }
+
+  .menu-list ul li {
+    font-size: 0.9rem; 
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-list h2 {
+    font-size: 1.1rem; 
+  }
+
+  .menu-list p {
+    font-size: 0.8rem; 
+  }
+
+  .menu-list ul li {
+    font-size: 0.8rem; 
+  }
+}
